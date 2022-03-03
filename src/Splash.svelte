@@ -21,13 +21,11 @@
 
     <About />
 
-    <div class='image-break'>
-    </div>
-
 </main>
 
 <style>
     .header {
+        border: 1px solid pink;
         height: 100vh;
         width: 100%;
         display: flex;
@@ -52,17 +50,5 @@
     }
     .header p::after {
         left: 110%;
-    }
-    
-    .image-break {
-        height: 100vh;
-        width: 100%;
-        background-image: url('../static/images/image-break-placheolder.jpg');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        box-shadow: 
-            inset 0 1rem 2rem rgb(0 0 0 / .05),
-            inset 0 -1rem 2rem rgb(0 0 0 / .05);
     }
 </style>

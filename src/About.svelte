@@ -33,9 +33,9 @@
 
 <style>
     .about {
-        margin: 8rem 0;
-        display: flex;
-        flex-direction: column;
+        max-width: 800px;
+        margin: 8rem auto;
+        position: relative;
     }
     .about-card {
         border: 1px solid red;
@@ -55,4 +55,5 @@
         flex-direction: row-reverse;
         text-align: right;
     }
+    
 </style>
