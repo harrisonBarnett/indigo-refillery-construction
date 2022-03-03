@@ -7,3 +7,12 @@
 	border: 0;
 	outline: 0;
 }
+.lazy, .loaded {
+	transition: all 4s ease;
+}
+.lazy {
+	opacity: 0;
+}
+.loaded {
+	opacity: 1;
+}
